@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5D20BA58-D2DD-454A-800E-9280B6420B0A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>tweeter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5068F40D55A906B84B6A982C7E3F5BFED6BBA6A9</key>
+		<string>https://github.com/beaubreedlove/tweeter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>tweeter.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5068F40D55A906B84B6A982C7E3F5BFED6BBA6A9</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/beaubreedlove/tweeter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5068F40D55A906B84B6A982C7E3F5BFED6BBA6A9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5068F40D55A906B84B6A982C7E3F5BFED6BBA6A9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>tweeter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
