@@ -66,11 +66,30 @@
                     <connections>
                         <outlet property="emailField" destination="xVw-7m-Rcr" id="YUN-bA-JKy"/>
                         <outlet property="passwordField" destination="LJW-t0-Srl" id="x2t-hC-ubQ"/>
+                        <segue destination="nC3-n6-Udq" kind="modal" identifier="loginSegue" id="STo-Pm-oFF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="128" y="237"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qc4-dU-pHQ">
+            <objects>
+                <viewController id="nC3-n6-Udq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LeS-RW-wfT"/>
+                        <viewControllerLayoutGuide type="bottom" id="pu9-gk-qAy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pdY-5w-g1Q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mxa-uu-gog" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="560" y="237"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

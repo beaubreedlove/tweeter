@@ -39,8 +39,7 @@ class LoginViewController: UIViewController {
                 // Show the errorString somewhere and let the user try again.
                 println("Error\(errorString)")
             } else {
-                // Hooray! Let them use the app now.
-                println("HOORAY! You now have an account!")
+                self.navigateToChatController()
             }
         }
     }
@@ -52,13 +51,16 @@ class LoginViewController: UIViewController {
         PFUser.logInWithUsernameInBackground(usernameString, password: passwordString) {
             (user: PFUser?, error: NSError?) -> Void in
             if user != nil {
-                // Do stuff after successful login.
-                println("Successful login")
+                self.navigateToChatController()
             } else {
                 // The login failed. Check error to see why.
                 println("Login failed!")
             }
         }
+    }
+    
+    func navigateToChatController() {
+        performSegueWithIdentifier("loginSegue", sender: self)
     }
     
 
